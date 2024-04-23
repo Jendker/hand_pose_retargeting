@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find dl_pose_estimation)/launch/dl_pose_estimation.launch"/>
+    <node pkg="pose_mapping_vrep" name="pose_mapping_vrep" type="mapping.py" output="screen"/>
+</launch>
