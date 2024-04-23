@@ -4,6 +4,10 @@
 
 This is the source code to the 2021 IEEE ICDL paper "Human hand motion retargeting for dexterous robotic hand".
 
+You can find 2 branches here:
+- main - has python 3 support. This updated code includes an implementation with Mujoco physics simulator and pose optimization with particle swarm optimization (PSO). Source code was developed in 2019 and I cannot guarantee compatibility with current version of Mujoco 3.x.
+- python2.7_vrep - old version of the code which directly relates to the paper. It support VRep simulator (now CoppeliaSim). I cannot guarantee compatibility with the current version of CoppeliaSim.
+
 If this work is helpful, please consider using following entry for the citation:
 
 ```
